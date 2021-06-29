@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.register{
+font-size: 30px;
+padding: 20px 10px;
+text-align: center;
+}
+
+.paragraph{
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.btn{
+  background-color: rgb(40, 117, 40);
+}
+
+#firstname,
+#lastname {
+  width: 165px;
+  min-height: 40px;
+  margin: 10px;
+}
+
+#email,
+#password,
+#confirm-password {
+  min-height: 40px;
+  width: 355px;
+  margin: 10px;
+}
+
+.checkbox{
+  padding: 10px;
+font-size: 15px;
+}
+.btn{
+  min-height: 40px;
+  width: 330px;
+  margin: 10px;
+  color: white;
+}

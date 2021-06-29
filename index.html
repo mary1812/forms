@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <link rel="stylesheet" href="./assets/css/reset.css"/>
+</head>
+<body>
+  <article>
+    <header class="register">Register</header>
+    <p class="paragraph">Create your account. It's free and only takes a minute.</p>
+  </article>
+  
+  <form action="/" method="get" class="form">
+   <div>
+    <label for="firstname" class="firstname">
+      <input
+      required
+      id="firstname"
+      type="text"
+      placeholder=" First Name"
+      autofocus
+      name="firstname"
+      pattern="^[A-Z][a-z]{1,32}$"
+      />
+    </label>
+      <label for="lastname" class="lastname">
+        <input
+        required
+        id="lastname"
+        type="text"
+        placeholder=" Last Name"
+        name="lastname"
+        pattern="^[A-Z][a-z]{1,32}$"
+      />
+      </label>
+   </div>
+  
+<br>
+  <label for="email" class="email"></label>
+  <input
+    required
+    id="email"
+    type="email"
+    placeholder=" Email"
+    name="email"
+    pattern="^[a-zA-Z0-9]{1,16}@[a-z]{1,9}\.[a-z]{1,4}$"
+  />
+  <br>
+  <label for="password" class="password"></label>
+  <input
+    required
+    id="password"
+    type="password"
+    placeholder=" Password"
+    name="password"
+    pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32}"
+  />
+  <br>
+  <label for="confirm-password" class="confirm-password"></label>
+  <input
+  required
+    id="confirm-password"
+    type="confirm-password"
+    placeholder=" Confirm Password"
+    name="confirm-password"
+    pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32}"
+  />
+</label>
+<br>
+<label for="i-accept" class="checkbox">
+  <input type="checkbox" name="accept"> I accept the Terms of Use & Privacy Policy.
+</label>
+<br>
+<button type="register" class="btn">Register Now</button>
+</labelfor>
+</form>
+</body>
+</html>
