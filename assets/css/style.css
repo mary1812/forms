@@ -3,10 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-.register{
-font-size: 30px;
-padding: 20px 10px;
-text-align: center;
+.heading{
+  font-size: 30px;
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.heading::before,
+.heading::after {
+  content: "";
+  flex-grow: 1;
+  border: 1px solid ;
+}
+.heading::before {
+  margin-right: 10px;
+}
+.heading::after {
+  margin-left: 10px;
 }
 
 .paragraph{
@@ -54,8 +67,12 @@ font-size: 15px;
 }
 
 .all{
-  background-color: rgb(231, 216, 216);
+  padding: 20px;
+  background-color: rgb(245, 241, 241);
   max-width: 500px;
-  
 }
 
+.url{
+  color: green;
+  text-decoration: none;
+}

@@ -11,13 +11,13 @@
 <body>
   <section class="all">
   <article>
-    <header class="register">Register</header>
+    <header class="heading"> Register</header>
     <p class="paragraph">Create your account. It's free and only takes a minute.</p>
   </article>
   
   <form action="/" method="get" class="form">
    <div>
-    <label for="firstname" class="firstname">
+    <label for="firstname">
       <input
       required
       id="firstname"
@@ -28,7 +28,7 @@
       pattern="^[A-Z][a-z]{1,32}$"
       />
     </label>
-      <label for="lastname" class="lastname">
+      <label for="lastname">
         <input
         required
         id="lastname"
@@ -41,7 +41,7 @@
    </div>
   
 <br>
-  <label for="email" class="email"></label>
+  <label for="email"></label>
   <input
     required
     id="email"
@@ -51,18 +51,17 @@
     pattern="^[a-zA-Z0-9]{1,16}@[a-z]{1,9}\.[a-z]{1,4}$"
   />
   <br>
-  <label for="password" class="password"></label>
+  <label for="password"></label>
   <input
     required
     id="password"
     type="password"
     placeholder=" Password"
-
     name="password"
     pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32}"
   />
   <br>
-  <label for="confirm-password" class="confirm-password"></label>
+  <label for="confirm-password"></label>
   <input
   required
     id="confirm-password"
@@ -74,7 +73,7 @@
 </label>
 <br>
 <label for="i-accept" class="checkbox">
-  <input type="checkbox" name="accept"> I accept the Terms of Use & Privacy Policy.
+  <input type="checkbox" name="accept"> I accept the <a href="#" class="url">Terms of Use</a> & <a href="#"class="url">Privacy Police</a>.
 </label>
 <br>
 <button type="register" class="btn">Register Now</button>
