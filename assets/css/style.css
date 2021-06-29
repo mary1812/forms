@@ -48,7 +48,14 @@ font-size: 15px;
 }
 .btn{
   min-height: 40px;
-  width: 330px;
+  width: 355px;
   margin: 10px;
   color: white;
 }
+
+.all{
+  background-color: rgb(231, 216, 216);
+  max-width: 500px;
+  
+}
+
